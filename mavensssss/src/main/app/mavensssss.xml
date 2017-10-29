@@ -10,6 +10,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
     <flow name="mavensssssFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/aa" doc:name="HTTP"/>
         <logger message="&quot;hi how are you&quot;" level="INFO" doc:name="Logger"/>
+        <logger message="#['Second logger']" level="INFO" doc:name="Logger"/>
         <set-payload value="#['Hi Pandu how r u ']" doc:name="Set Payload"/>
     </flow>
 </mule>
