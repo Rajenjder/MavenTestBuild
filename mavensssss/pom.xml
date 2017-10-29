@@ -116,6 +116,11 @@
     <artifactId>mule-core</artifactId>
     <version>3.7.0</version>
 </dependency>
+<dependency>
+    <groupId>org.jenkins-ci.main.maven</groupId>
+    <artifactId>maven3-interceptor-commons</artifactId>
+    <version>1.12-alpha-1</version>
+</dependency>
 
 		<!-- Xml configuration -->
 		<dependency>
